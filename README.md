@@ -1,16 +1,18 @@
 # multiAiCtf
 
-This is a multi-level CTF challenge based on AI / LLM and prompt engineering.
+This is a multi-level CTF challenge based on AI / LLM and prompt engineering. Built using Python and Streamlit.
 
 The system prompt protects some information that the user must retrieve. The difficulty scales with each level.
-
 
 Inspired by [Gandalf](https://gandalf.lakera.ai), built for a CTF run by a colleague. Feel free to use in your own CTF, consider letting me know if you do!
 
 
 ## config
 
-This runs on the Azure OpenAI API, add an `.env` file to the project root:
+This runs on the Azure OpenAI API, either
+
+- Add the following variables to the shell environment, OR
+- Create an `.env` file in the project root with following variables
 
 ~~~bash
 AZURE_OPENAI_API_KEY="api_key"
